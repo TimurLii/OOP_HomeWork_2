@@ -27,14 +27,16 @@ public class  Main {
         vetClinic.addPatients(barsik, eagle, Dandi, penguin, Butterfly, new Fish("Fish", LocalDate.of(2022, 1,11),
                 new ArrayList<>(), "Hcumka", "Arnton"));
 //        System.out.println(vetClinic.getPatients());
-        System.out.println(vetClinic.getGoablse());
-        System.out.println(vetClinic.getFlyble());
-        System.out.println(vetClinic.getSwimble());
+//        System.out.println(vetClinic.getGoablse());
+//        System.out.println(vetClinic.getFlyble());
+//        System.out.println(vetClinic.getSwimble());
         Doctor Doc = new Doctor("Ivanov.A.A" , "Surgeon" );
         Nurse Nurse = new Nurse("Petrova.S.A.", "Nurse");
 
 
-        vetClinic.doctorVisit(barsik);
+
+
+//        vetClinic.doctorVisit(barsik);
 
         //Проблемой при таком программировании является то, что в каждом классе наследнике
         // необходимо прописать свойства (умет ли животное летать, плавать,ходить).
